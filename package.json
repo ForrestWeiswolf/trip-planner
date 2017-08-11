@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "webpack": "^3.5.3"
+  },
+  "dependencies": {
+    "mapbox-gl": "^0.39.1"
   }
 }
