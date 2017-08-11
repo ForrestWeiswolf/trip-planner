@@ -1,3 +1,1 @@
-const map = document.getElementById('map');
-
-map.text("Hello from Javascript")
+document.getElementById("map").innerText = "Hello from JS";
