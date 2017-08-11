@@ -521,13 +521,21 @@ module.exports={"$version":8,"$root":{"version":{"required":true,"type":"enum","
 
 
 //# sourceMappingURL=mapbox-gl.js.map
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-const createMarker = __webpack_require__(2)
+__webpack_require__(2);
+module.exports = __webpack_require__(5);
+
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+const createMarker = __webpack_require__(3)
 
 const mapboxgl = __webpack_require__(0);
 
@@ -545,7 +553,7 @@ marker.addTo(map);
 
 
 /***/ }),
-/* 2 */
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 const mapboxgl = __webpack_require__(0);
@@ -569,7 +577,7 @@ module.exports = createMarker;
 
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports) {
 
 var g;
@@ -594,6 +602,12 @@ try {
 
 module.exports = g;
 
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
