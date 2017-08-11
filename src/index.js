@@ -11,4 +11,5 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v10" // mapbox has lots of different map styles available
 });
 
-createMarker("activity", -74.009, 40.705).addTo(map);
+const marker = createMarker("activity", -74.009, 40.705);
+marker.addTo(map);
